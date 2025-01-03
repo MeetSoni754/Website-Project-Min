@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Responsive Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Website(Min).css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-cube"></i>
+                ModernWeb
+            </a>
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1 class="hero-title">Create Beautiful Websites</h1>
+            <p class="hero-text">Transform your ideas into reality with our modern web solutions</p>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Features</h2>
+                <p>What makes us different</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt feature-icon"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look great on all devices</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-paint-brush feature-icon"></i>
+                    <h3>Modern UI/UX</h3>
+                    <p>Beautiful and intuitive user interfaces</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-rocket feature-icon"></i>
+                    <h3>Fast Performance</h3>
+                    <p>Optimized for speed and efficiency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>What we offer</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="Images/P2.webp" alt="Web Development" class="service-img">
+                    <div class="service-content">
+                        <h3>Web Development</h3>
+                        <p>Custom websites built with modern technologies</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="Images/P3.jpg" alt="UI/UX Design" class="service-img">
+                    <div class="service-content">
+                        <h3>UI/UX Design</h3>
+                        <p>User-centered design solutions</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="Images/P4.webp" alt="Digital Marketing" class="service-img">
+                    <div class="service-content">
+                        <h3>Digital Marketing</h3>
+                        <p>Strategic online marketing solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Team</h2>
+                <p>Meet our experts</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-img-container">
+                        <img src="Images/P5.jpg" alt="Team Member 1" class="team-img">
+                    </div>
+                    <div class="team-content">
+                        <h3>John Doe</h3>
+                        <p>Lead Developer</p>
+                        <div class="team-social">
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-img-container">
+                        <img src="Images/P6.png" alt="Team Member 2" class="team-img">
+                    </div>
+                    <div class="team-content">
+                        <h3>Amaira Alex</h3>
+                        <p>UI/UX Designer</p>
+                        <div class="team-social">
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-img-container">
+                        <img src="Images/P7.png" alt="Team Member 3" class="team-img">
+                    </div>
+                    <div class="team-content">
+                        <h3>Mike Johnson</h3>
+                        <p>Marketing Specialist</p>
+                        <div class="team-social">
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-content">
+                    <h3 class="footer-heading">About Us</h3>
+                    <p>We create beautiful and functional websites using modern technologies and best practices.</p>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#features" class="footer-link">Features</a></li>
+                        <li><a href="#services" class="footer-link">Services</a></li>
+                        <li><a href="#team" class="footer-link">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-heading">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Web Development</a></li>
+                        <li><a href="#" class="footer-link">UI/UX Design</a></li>
+                        <li><a href="#" class="footer-link">Digital Marketing</a></li>
+                        <li><a href="#" class="footer-link">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-heading">Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><a href="tel:+1234567890" class="footer-link"><i class="fas fa-phone"></i> +123 456 7890</a></li>
+                        <li><a href="mailto:info@example.com" class="footer-link"><i class="fas fa-envelope"></i> info@example.com</a></li>
+                        <li><a href="#" class="footer-link"><i class="fas fa-map-marker-alt"></i> 123 Street, City, Country</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="footer-social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="footer-social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="footer-social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
